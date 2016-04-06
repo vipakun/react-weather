@@ -1,0 +1,28 @@
+{
+  "name": "react-weather",
+  "version": "1.0.0",
+  "description": "building weather app with reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipakun/react-weather.git"
+  },
+  "keywords": [
+    "weather",
+    "react"
+  ],
+  "author": "Xiangkun Yang (vipakun@hotmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipakun/react-weather/issues"
+  },
+  "homepage": "https://github.com/vipakun/react-weather#readme",
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-router": "^2.0.1"
+  }
+}
