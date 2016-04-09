@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import routes from './config/routes'
 
-const Hello = React.createClass({
-  render: function () {
-    return (
-      <div>Hello ReactJS Weather!</div>
-    )
-  }
-});
-
-ReactDOM.render(<Hello />, document.getElementById('app'));
+ReactDOM.render(
+  routes, 
+  document.getElementById('app')
+);
