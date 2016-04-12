@@ -1,5 +1,5 @@
 import React from 'react';
-import { homeBackground } from '../styles';
+import { homeBackground, homeHeader, homeButton } from '../styles';
 
 // var Home = React.createClass({
 //   render: function(){
@@ -15,9 +15,12 @@ import { homeBackground } from '../styles';
 
 function Home (props) {
   return (
-    <div style={homeBackground}>
-      <h1>Enter a City or Country</h1>
-
+    <div style={ homeBackground }>
+      <h1 style={ homeHeader }>Enter a City or Country</h1>
+      <div className="col-sm-2">
+        <input className="form-control" placeholder = 'Chicago, IL' />
+      </div>
+      <button className= "btn btn-success" style={homeButton}>Get Weather</button>
     </div>
   )
 }
