@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { main } from '../styles';
+import { main, headerBar } from '../styles';
+
+import Header from '../components/Header';
 
 
 class Main extends Component {
@@ -10,7 +12,7 @@ class Main extends Component {
   render(){
     return (
       <div style = {main}> 
-        <h1>Main JS Header</h1>
+        <Header/>
         {this.props.children}
       </div>
     )

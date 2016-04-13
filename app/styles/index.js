@@ -1,6 +1,6 @@
 //containers/Main.js
 export const main = {
-    height: '92%'
+    height: '100%'
 }
 
 
@@ -22,4 +22,27 @@ export const homeHeader = {
 }
 export const homeButton = {
     margin: '10'
+}
+
+
+//components/Header.js
+export const headerBar = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    background: 'rgba(252, 90, 44, 0.89)',
+    color: '#fff',
+    padding: '5px',
+} 
+
+export const cleverTitle = {
+    margin:'0'
+}
+
+export const headerRight = {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    maxWidth: '300px'
 }
